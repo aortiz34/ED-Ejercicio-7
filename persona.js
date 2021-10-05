@@ -6,6 +6,14 @@ export default class Persona {
         this._siguiente = null;
     }
 
+    getNombre(){
+        return this._nombre;
+    }
+
+    getEdad(){
+        return this._edad;
+    }
+
     getSiguiente(){
         return this._siguiente;
     }
